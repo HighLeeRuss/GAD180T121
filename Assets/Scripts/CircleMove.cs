@@ -23,9 +23,10 @@ public class CircleMove : MonoBehaviour
     {
 
         input = Input.GetAxisRaw("Horizontal");
-
-
         rb.velocity = new Vector2(input * speed, rb.velocity.y);
+        input = Input.GetAxisRaw("Vertical");
+        rb.velocity = new Vector2(rb.velocity.x, input * speed);
+
 
     }
 }
