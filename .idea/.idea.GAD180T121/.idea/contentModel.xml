@@ -7,7 +7,10 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="CircleMove.cs" t="Include" />
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="Furniture.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="RubbishBar.cs" t="Include" />
         </e>
       </e>
       <e p="GAD180T121.sln" t="IncludeFlat" />
