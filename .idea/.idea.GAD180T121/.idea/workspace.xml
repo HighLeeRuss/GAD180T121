@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Trafford.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Trafford.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CircleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -93,7 +94,7 @@
       <updated>1614907966788</updated>
       <workItem from="1614907969549" duration="5351000" />
       <workItem from="1615243672731" duration="1183000" />
-      <workItem from="1615451299705" duration="1959000" />
+      <workItem from="1615451299705" duration="7103000" />
     </task>
     <servers />
   </component>

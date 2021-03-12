@@ -6,22 +6,25 @@ using UnityEngine.UI;
 
 public class RubbishBar : MonoBehaviour
 {
-    public Slider slider;
+   public Slider slider;
+   public bool rubbishFull = false;
 
-    private void Start()
-    {
-        slider.value = 0;
-    }
+   
 
-    public void SetMaxRubbish(int rubbish)
-    {
-        slider.maxValue = rubbish;
-        slider.value = rubbish;
-    }
-    
-    public void SetRubbish(int rubbish)
-    {
-        slider.value = rubbish;
-    }
+   public void SetRubbish(int rubbish)
+   {
+      slider.value += rubbish;
+      Debug.Log(slider.value);
+      
+      if (slider.value == 10)
+      {
+         rubbishFull = true;
+         Debug.Log(rubbishFull);
+      }
+   }
+
+   
+   
+   
 
 }
