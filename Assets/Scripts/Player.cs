@@ -64,31 +64,5 @@ public class Player : MonoBehaviour
   
 
 
-    public void OnTriggerStay2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Hazzard")
-        {
-            print("i stunned");
-            speed = 0f;
-            StartCoroutine(WaitForSec());
-        }
-    }
-
-    IEnumerator WaitForSec()
-    {
-        yield return new WaitForSeconds(2f);
-        
-        if (rubbishBar.slider.value > 5)
-        {
-            speed = 3.5f;
-        }
-        if (rubbishBar.slider.value >= 10)
-        {
-            speed = 1f;
-        }
-        else
-        {
-            speed = 4.5f;
-        }
-    }
+   
 }
