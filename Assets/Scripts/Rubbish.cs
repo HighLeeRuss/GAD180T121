@@ -6,12 +6,14 @@ using UnityEngine;
 public class Rubbish : MonoBehaviour
 {
 
-    public RubbishBar rubbishBar;
-    
-    
-    
+    private RubbishBar rubbishBar;
 
-   
+
+    private void Awake()
+    {
+        rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
+    }
+
 
     public void OnTriggerEnter2D(Collider2D c)
     {
