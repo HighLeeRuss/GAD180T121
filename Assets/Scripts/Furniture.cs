@@ -27,9 +27,10 @@ public class Furniture : MonoBehaviour
             rubbishBar.SetRubbish(5);
          }
       }
-      else
+      else if (col.gameObject.tag == "Player" && (rubbishBar.rubbishFull || rubbishBar.slider.value > 5))
       {
          print("you full sucka");
       }
+      
    }
 }

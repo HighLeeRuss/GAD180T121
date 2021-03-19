@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
 
     private bool pickUp = false;
     public RubbishBar rubbishBar;
-    public bool isStunned = false;
+    [HideInInspector] public bool isStunned = false;
     
     
     
@@ -33,24 +33,24 @@ public class Player : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
         
-        if (isStunned)
-        {
-            speed = 0f;
-        }
-        else
-        {
-            speed = 4.5f;
-            
-            if (rubbishBar.slider.value > 5)
-            {
-                speed = 3.5f;
-            }
+     if (isStunned)
+     {
+         speed = 0f;
+     }
+     else
+     {
+         speed = 4.5f;
+         
+         if (rubbishBar.slider.value > 5)
+         {
+             speed = 3.5f;
+         }
 
-            if (rubbishBar.slider.value >= 10)
-            {
-                speed = 1f;
-            }
-        }
+         if (rubbishBar.slider.value >= 10)
+         {
+             speed = 1f;
+         }
+     }
 
 
 
