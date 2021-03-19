@@ -7,6 +7,7 @@ public class Furniture : MonoBehaviour
 {
    private Player playerScript;
    private RubbishBar rubbishBar;
+   private bool pickUp = false;
 
 
    private void Awake()
@@ -15,17 +16,25 @@ public class Furniture : MonoBehaviour
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
    }
 
+   private void Update()
+   {
+      if (pickUp)
+      {
+         if (Input.GetKeyDown(KeyCode.E))
+         {
+            Destroy(gameObject);
+            rubbishBar.SetRubbish(5);
+         }
+      }
+   }
+
 
    public void OnTriggerStay2D(Collider2D col)
    {
       if (col.gameObject.tag == "Player" && (!rubbishBar.rubbishFull && rubbishBar.slider.value <= 5))
       {
          Debug.Log(col.name);
-         if (Input.GetKeyDown(KeyCode.E))
-         {
-            Destroy(gameObject);
-            rubbishBar.SetRubbish(5);
-         }
+         pickUp = true;
       }
       else if (col.gameObject.tag == "Player" && (rubbishBar.rubbishFull || rubbishBar.slider.value > 5))
       {
