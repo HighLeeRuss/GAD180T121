@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5847413394832176319}
   - component: {fileID: 5847413394832176312}
   - component: {fileID: 5847413394832176318}
-  - component: {fileID: 5847413394832176317}
   - component: {fileID: 5847413394832176316}
   m_Layer: 0
   m_Name: FishFrame
@@ -111,20 +110,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.66, y: 0.36}
   m_EdgeRadius: 0
---- !u!114 &5847413394832176317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5847413394832176313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdf76c13bebe33a47a2868913e1ed1b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rubbishBar: {fileID: 0}
-  player: {fileID: 0}
 --- !u!114 &5847413394832176316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,5 +122,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf76c13bebe33a47a2868913e1ed1b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rubbishBar: {fileID: 0}
-  player: {fileID: 0}
