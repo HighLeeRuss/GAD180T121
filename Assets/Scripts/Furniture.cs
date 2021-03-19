@@ -18,7 +18,7 @@ public class Furniture : MonoBehaviour
 
    public void OnTriggerStay2D(Collider2D col)
    {
-      if (col.gameObject.tag == "Player") //&& !rubbishBar.rubbishFull)
+      if (col.gameObject.tag == "Player" && (!rubbishBar.rubbishFull && rubbishBar.slider.value <= 5))
       {
          Debug.Log(col.name);
          if (Input.GetKeyDown(KeyCode.E))
@@ -26,6 +26,10 @@ public class Furniture : MonoBehaviour
             Destroy(gameObject);
             rubbishBar.SetRubbish(5);
          }
+      }
+      else
+      {
+         print("you full sucka");
       }
    }
 }

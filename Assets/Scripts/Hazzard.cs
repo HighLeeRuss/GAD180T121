@@ -23,24 +23,13 @@ public class Hazzard : MonoBehaviour
       print("i stunned");
       playerScript.speed = 0f;
       StartCoroutine(WaitForSec());
+      playerScript.isStunned = true;
     }
   }
 
   IEnumerator WaitForSec()
   {
-    yield return new WaitForSeconds(2f);
-        
-    if (rubbishBar.slider.value > 5)
-    {
-      playerScript.speed = 3.5f;
-    }
-    if (rubbishBar.slider.value >= 10)
-    {
-      playerScript.speed = 1f;
-    }
-    else
-    {
-      playerScript.speed = 4.5f;
-    }
+    yield return new WaitForSeconds(5f);
+    playerScript.isStunned = false;
   }
 }

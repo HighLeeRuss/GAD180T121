@@ -13,6 +13,7 @@
           <e p="Player.cs" t="Include" />
           <e p="Rubbish.cs" t="Include" />
           <e p="RubbishBar.cs" t="Include" />
+          <e p="TimerCountdown.cs" t="Include" />
         </e>
       </e>
       <e p="GAD180T121.sln" t="IncludeFlat" />

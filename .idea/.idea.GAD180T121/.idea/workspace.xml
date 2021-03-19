@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="" />
+    <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +37,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerCountdown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -39,10 +46,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CircleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
       </list>
     </option>
   </component>
@@ -96,6 +104,7 @@
       <workItem from="1615451299705" duration="7103000" />
       <workItem from="1615517541119" duration="1161000" />
       <workItem from="1615518723449" duration="7549000" />
+      <workItem from="1616110385732" duration="3820000" />
     </task>
     <servers />
   </component>
