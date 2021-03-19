@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
+          <e p="DestroyOnExit.cs" t="Include" />
           <e p="Furniture.cs" t="Include" />
           <e p="Hazzard.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />

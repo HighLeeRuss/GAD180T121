@@ -11,13 +11,12 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     private Vector2 moveAmount;
-    
+
     public RubbishBar rubbishBar;
     [HideInInspector] public bool isStunned = false;
     
-    
-    
-    
+
+
     // Start is called before the first frame update
     void Awake()
     {
