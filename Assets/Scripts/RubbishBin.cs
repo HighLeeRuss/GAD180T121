@@ -36,9 +36,9 @@ public class RubbishBin : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R) && binCapacity > 0 && rubbishBar.slider.value > 0)
             {
 
-                rubbishBar.slider.value -= 1;
+                rubbishBar.SetRubbish(-1);
                 binCapacity -= 1;
-                Debug.Log(binCapacity);
+                Debug.Log(binCapacity + "bin capacity");
 
                 if (binCapacity == 0)
                 {
@@ -59,7 +59,13 @@ public class RubbishBin : MonoBehaviour
         {
             Debug.Log("contact");
             contact = true;
-
         }
+        
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("left");
+        contact = false;
     }
 }

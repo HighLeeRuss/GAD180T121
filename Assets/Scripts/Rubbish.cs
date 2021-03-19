@@ -20,6 +20,7 @@ public class Rubbish : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             print("i have found rubbish");
+            Debug.Log(rubbishBar.rubbishFull + "rubbish full");
             if (!rubbishBar.rubbishFull)
             {
                 Destroy(gameObject);

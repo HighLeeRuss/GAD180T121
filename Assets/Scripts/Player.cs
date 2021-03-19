@@ -11,8 +11,7 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     private Vector2 moveAmount;
-
-    private bool pickUp = false;
+    
     public RubbishBar rubbishBar;
     [HideInInspector] public bool isStunned = false;
     
@@ -32,42 +31,37 @@ public class Player : MonoBehaviour
     {
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
-        
-     if (isStunned)
-     {
-         speed = 0f;
-     }
-     else
-     {
-         speed = 4.5f;
-         
-         if (rubbishBar.slider.value > 5)
-         {
-             speed = 3.5f;
-         }
 
-         if (rubbishBar.slider.value >= 10)
-         {
-             speed = 1f;
-         }
-     }
+        if (isStunned)
+        {
+            speed = 0f;
+        }
+        else
+        {
+            speed = 4.5f;
 
+            if (rubbishBar.slider.value > 5)
+            {
+                speed = 3.5f;
 
-
-
-
-
-
-
-        //if (Input.GetKeyDown("e") && !rubbishBar.rubbishFull)
-       //{
-       //    rubbishBar.SetRubbish(1);
-       //    if (rubbishBar.rubbishFull)
-       //    {
-       //        print("cant suck no more Gee");
-       //    }
-       //}
+                if (rubbishBar.slider.value >= 10)
+                {
+                    speed = 2.5f;
+                }
+            }
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
 
     private void FixedUpdate()
     {
@@ -78,5 +72,4 @@ public class Player : MonoBehaviour
   
 
 
-   
-}
+  }
