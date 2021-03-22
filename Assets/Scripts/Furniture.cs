@@ -22,10 +22,10 @@ public class Furniture : MonoBehaviour
       playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
       anim = GetComponent<Animator>();
-      //if (player == null)
-      //{
-      //   player = GameObject.FindGameObjectWithTag("Player");
-      //}
+      if (player == null)
+      {
+         player = GameObject.FindGameObjectWithTag("Player");
+      }
       
 
    }
@@ -36,10 +36,14 @@ public class Furniture : MonoBehaviour
       {
          if (Input.GetKeyDown(KeyCode.E))
          {
+            
             StartCoroutine(MoveToPlayer());
             anim.SetBool("isSucked", true);
             rubbishBar.SetRubbish(5);
-            
+            GetComponent<BoxCollider2D>().enabled = false;
+            GetComponentInChildren<BoxCollider2D>().enabled = false;
+
+
          }
       }
    }
@@ -55,6 +59,14 @@ public class Furniture : MonoBehaviour
       else if (col.gameObject.tag == "Player" && (rubbishBar.rubbishFull || rubbishBar.slider.value > 5))
       {
          print("you full sucka");
+      }
+   }
+
+   public void OnTriggerExit2D(Collider2D c)
+   {
+      if (c.gameObject.tag == "Player")
+      {
+         pickUp = false;
       }
    }
 
