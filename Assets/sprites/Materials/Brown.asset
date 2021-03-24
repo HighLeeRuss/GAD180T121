@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Harvey horizontal wall darker_0
+  m_Name: Brown
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 5273195769426628751, guid: 2422024fd6f11514b9a0e5691757b0d4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8b96e0de61cae5c45b70d5bf9569b81b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
