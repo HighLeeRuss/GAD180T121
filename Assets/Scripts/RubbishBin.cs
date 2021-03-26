@@ -24,6 +24,7 @@ public class RubbishBin : MonoBehaviour
         playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
         rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
         
+        
 
     }
 
@@ -57,8 +58,13 @@ public class RubbishBin : MonoBehaviour
     {
         if (c.gameObject.tag == "Player")
         {
+            
             Debug.Log("contact");
             contact = true;
+            if (expr)
+            {
+                
+            }
         }
         
     }
@@ -67,5 +73,6 @@ public class RubbishBin : MonoBehaviour
     {
         Debug.Log("left");
         contact = false;
+        transform.GetChild(0).GetChild(3).gameObject.SetActive(false);
     }
 }
