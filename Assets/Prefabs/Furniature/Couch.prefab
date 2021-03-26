@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &4825820340444805664
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,7 +136,7 @@ GameObject:
   - component: {fileID: 8197524340188418262}
   m_Layer: 0
   m_Name: collider
-  m_TagString: Untagged
+  m_TagString: FurnitureCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

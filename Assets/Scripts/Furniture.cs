@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Furniture : MonoBehaviour
 {
-   public GameObject player;
+   private GameObject player;
    private Player playerScript;
    private RubbishBar rubbishBar;
    private bool pickUp = false;
    private Animator anim;
+   
+   
    
    
 
@@ -22,6 +24,8 @@ public class Furniture : MonoBehaviour
       playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
       anim = GetComponent<Animator>();
+      
+
       if (player == null)
       {
          player = GameObject.FindGameObjectWithTag("Player");
@@ -34,17 +38,11 @@ public class Furniture : MonoBehaviour
    {
       if (pickUp)
       {
-         if (Input.GetKeyDown(KeyCode.E))
-         {
-            
-            StartCoroutine(MoveToPlayer());
-            anim.SetBool("isSucked", true);
-            rubbishBar.SetRubbish(5);
-            GetComponent<BoxCollider2D>().enabled = false;
-            GetComponentInChildren<BoxCollider2D>().enabled = false;
-
-
-         }
+         transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
+         anim.SetBool("isSucked", true);
+         StartCoroutine(MoveToPlayer());
+         rubbishBar.SetRubbish(5);
+         GetComponent<BoxCollider2D>().enabled = false;
       }
    }
 

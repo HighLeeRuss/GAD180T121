@@ -9,6 +9,8 @@ TagManager:
   - Hazzard
   - PlayerCollider
   - RubbishBar
+  - RubbishBin
+  - FurnitureCollider
   layers:
   - Default
   - TransparentFX

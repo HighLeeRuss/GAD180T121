@@ -21,15 +21,14 @@ public class Hazzard : MonoBehaviour
     if (col.gameObject.tag == "PlayerCollider")
     {
       print("i stunned");
-      playerScript.speed = 0f;
-      StartCoroutine(WaitForSec());
       playerScript.isStunned = true;
+      playerScript.IsStunned();
+
+
+
+
     }
   }
 
-  IEnumerator WaitForSec()
-  {
-    yield return new WaitForSeconds(5f);
-    playerScript.isStunned = false;
-  }
+ 
 }

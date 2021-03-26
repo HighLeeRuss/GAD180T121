@@ -19,7 +19,7 @@ public class RubbishBar : MonoBehaviour
       if (slider.value == 10)
       {
          rubbishFull = true;
-         Debug.Log(rubbishFull + "cant pick up");
+         Debug.Log(rubbishFull + " cant pick up");
       }
       else
       {
