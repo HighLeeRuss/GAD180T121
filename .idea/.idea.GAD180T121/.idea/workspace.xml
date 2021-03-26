@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/RubbishBin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/RubbishBin.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/R_Mash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/R_Mash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +114,7 @@
       <workItem from="1615517541119" duration="1161000" />
       <workItem from="1615518723449" duration="7549000" />
       <workItem from="1616110385732" duration="29160000" />
-      <workItem from="1616557189703" duration="16982000" />
+      <workItem from="1616557189703" duration="20712000" />
     </task>
     <servers />
   </component>

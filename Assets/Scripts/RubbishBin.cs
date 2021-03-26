@@ -34,8 +34,10 @@ public class RubbishBin : MonoBehaviour
 
         if (contact)
         {
+            
             if (Input.GetKeyDown(KeyCode.R) && binCapacity > 0 && rubbishBar.slider.value > 0)
             {
+                CheckContact();
 
                 rubbishBar.SetRubbish(-1);
                 binCapacity -= 1;
@@ -59,12 +61,7 @@ public class RubbishBin : MonoBehaviour
         if (c.gameObject.tag == "Player")
         {
             
-            Debug.Log("contact");
-            contact = true;
-            if (expr)
-            {
-                
-            }
+            CheckContact();
         }
         
     }
@@ -73,6 +70,21 @@ public class RubbishBin : MonoBehaviour
     {
         Debug.Log("left");
         contact = false;
-        transform.GetChild(0).GetChild(3).gameObject.SetActive(false);
+        transform.GetChild(3).gameObject.SetActive(false);
+    }
+
+
+    void CheckContact()
+    {
+        Debug.Log("contact");
+        contact = true;
+        if (rubbishBar.slider.value > 0)
+        {
+            transform.GetChild(3).gameObject.SetActive(true);
+        }
+        else
+        {
+            transform.GetChild(3).gameObject.SetActive(false);
+        }
     }
 }
