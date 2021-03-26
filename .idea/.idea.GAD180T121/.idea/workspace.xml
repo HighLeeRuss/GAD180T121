@@ -20,9 +20,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTable 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTable 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTable.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTable.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTableSuck.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTableSuck.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Player 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Player 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/PlayerIsSucking.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/PlayerIsSucking.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/PlayerMoving.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/PlayerMoving.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Stove 2.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Anims/Stove 2.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/BinClosed.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/BinClosed.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/BinOpen.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/BinOpen.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/DinnerTableSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/DinnerTableSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/RubbishBin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/RubbishBin.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Stove 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Stove 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/StoveSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/StoveSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TV.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TV.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableDinner.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TableDinner.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/stove.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/stove.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/BigSpill-3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Folder/SmallSpill-3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/CoffeeTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/CoffeeTable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Couch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Couch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/BlueCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/BlueCan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/GreenAppleCore.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/GreenAppleCore.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/Pizza.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/Pizza.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/RedAppleCore.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/RedAppleCore.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/RedCan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rubbish/RedCan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trafford.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trafford.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/Harvey horizontal wall darker.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/Harvey horizontal wall darker.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/WoodFloor (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/WoodFloor (1).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +94,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WheelMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimerCountdown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,14 +104,17 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CircleMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" />
         <option value="$PROJECT_DIR$/Assets/DestroyOnExit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/FinishSucking.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WheelMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" />
       </list>
     </option>
@@ -106,7 +169,8 @@
       <workItem from="1615451299705" duration="7103000" />
       <workItem from="1615517541119" duration="1161000" />
       <workItem from="1615518723449" duration="7549000" />
-      <workItem from="1616110385732" duration="21886000" />
+      <workItem from="1616110385732" duration="29160000" />
+      <workItem from="1616557189703" duration="15898000" />
     </task>
     <servers />
   </component>
