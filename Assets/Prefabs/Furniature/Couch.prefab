@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4246569393554865667}
   - component: {fileID: 4246569393554865666}
   - component: {fileID: 4957678599878859976}
+  - component: {fileID: 2085192625295126280}
   m_Layer: 0
   m_Name: Couch
   m_TagString: Furniture
@@ -123,7 +124,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+--- !u!95 &2085192625295126280
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4246569393554865665}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b9089a00263823a4e810742f69b376c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4825820340444805664
 GameObject:
   m_ObjectHideFlags: 0
