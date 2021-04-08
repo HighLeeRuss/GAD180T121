@@ -173,6 +173,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1189500949209348433}
+  - component: {fileID: 606029019}
+  - component: {fileID: 606029020}
   m_Layer: 0
   m_Name: Wheels
   m_TagString: Untagged
@@ -196,6 +198,37 @@ Transform:
   m_Father: {fileID: 4272209217687731876}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &606029019
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3395694234513657298}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e60bb1aeb381204d8195b3d94942418, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &606029020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3395694234513657298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbbc5d66dbf87364a98bd14273c73724, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3996243001771208975
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,7 +536,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.040103972, y: 0.084765434}
+  m_Offset: {x: 0.044691205, y: 0.091646075}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -514,7 +547,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0405742, y: 1.157464}
+  m_Size: {x: 0.866261, y: 0.96021485}
   m_EdgeRadius: 0
 --- !u!50 &4272209217687732057
 Rigidbody2D:
@@ -551,6 +584,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4.5
   anim: {fileID: 0}
+  moveInput: {x: 0, y: 0}
+  moveAmount: {x: 0, y: 0}
   rubbishBar: {fileID: 0}
   isStunned: 0
 --- !u!95 &942320173623453416
