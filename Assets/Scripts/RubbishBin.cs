@@ -34,10 +34,22 @@ public class RubbishBin : MonoBehaviour
 
         if (contact)
         {
+            if (rubbishBar.slider.value > 0)
+            {
+                transform.GetChild(3).gameObject.SetActive(true);
+                anim.SetBool("rMash", true);
+            
+            }
+            else
+            {
+                transform.GetChild(3).gameObject.SetActive(false);
+                anim.SetBool("rMash", false);
+            
+            }
             
             if (Input.GetKeyDown(KeyCode.R) && binCapacity > 0 && rubbishBar.slider.value > 0)
             {
-                CheckContact();
+                //CheckContact();
 
                 rubbishBar.SetRubbish(-1);
                 binCapacity -= 1;
@@ -46,13 +58,19 @@ public class RubbishBin : MonoBehaviour
                 if (binCapacity == 0)
                 {
                     binFull = true;
+                    
+                    print("the bin is full");
                 }
+                
             }
         }
 
         if (binFull)
         {
             anim.SetBool("isFull", true);
+            anim.SetBool("rMash", false);
+            transform.GetChild(3).gameObject.SetActive(false);
+            
         }
     }
 
@@ -78,13 +96,16 @@ public class RubbishBin : MonoBehaviour
     {
         Debug.Log("contact");
         contact = true;
-        if (rubbishBar.slider.value > 0)
-        {
-            transform.GetChild(3).gameObject.SetActive(true);
-        }
-        else
+        
+        if (binFull)
         {
             transform.GetChild(3).gameObject.SetActive(false);
+            anim.SetBool("rMash", false);
+        }
+        else if (rubbishBar.slider.value > 0 && !binFull)
+        {
+            transform.GetChild(3).gameObject.SetActive(true);
+            anim.SetBool("rMash", true);
         }
     }
 }
