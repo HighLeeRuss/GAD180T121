@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/CoffeeTable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/CoffeeTable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Couch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Couch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TV.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TV.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableDinner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableDinner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableSmall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableSmall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableTV.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableTV.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +58,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CircleMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/DestroyOnExit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" />
@@ -55,10 +67,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Rubbish.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hazzard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WheelMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +128,7 @@
       <workItem from="1616110385732" duration="29160000" />
       <workItem from="1616557189703" duration="22131000" />
       <workItem from="1617859671554" duration="4165000" />
-      <workItem from="1617930439978" duration="3184000" />
+      <workItem from="1617930439978" duration="7401000" />
     </task>
     <servers />
   </component>

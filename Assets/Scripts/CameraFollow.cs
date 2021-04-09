@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform playerTransform;
+    [HideInInspector] public Transform playerTransform;
     public float speed;
 
-    public float minX;
-    public float maxX;
-    public float minY;
-    public float maxY;
+    private float minX;
+    private float maxX;
+    private float minY;
+    private float maxY;
     
     // Start is called before the first frame update
     void Start()
     {
+        minX = -5.85f;
+        maxX = 6.18f;
+        minY = -4.39f;
+        maxY = 4.41f;
+        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
         transform.position = playerTransform.position;
     }
 

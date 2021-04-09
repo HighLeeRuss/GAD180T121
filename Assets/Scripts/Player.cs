@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     public Vector2 moveInput;
     public Vector2 moveAmount;
 
-    public RubbishBar rubbishBar;
+    [HideInInspector] public RubbishBar rubbishBar;
     [HideInInspector] public bool isStunned;
     
 
@@ -27,7 +27,9 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         isStunned = false;
+        rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
         //wheelAnim = transform.GetChild(3).GetComponent<Animator>();
+        
 
 
     }
