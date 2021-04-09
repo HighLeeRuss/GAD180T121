@@ -17,6 +17,7 @@
           <e p="Rubbish.cs" t="Include" />
           <e p="RubbishBar.cs" t="Include" />
           <e p="RubbishBin.cs" t="Include" />
+          <e p="ScoreScript.cs" t="Include" />
           <e p="TimerCountdown.cs" t="Include" />
           <e p="WheelMovement.cs" t="Include" />
         </e>

@@ -11,6 +11,7 @@ TagManager:
   - RubbishBar
   - RubbishBin
   - FurnitureCollider
+  - Score
   layers:
   - Default
   - TransparentFX

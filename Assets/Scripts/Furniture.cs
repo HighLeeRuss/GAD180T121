@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 public class Furniture : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class Furniture : MonoBehaviour
    private RubbishBar rubbishBar;
    private bool pickUp = false;
    private Animator anim;
+   private ScoreScript addScore;
+   
    
    
    
@@ -24,6 +28,9 @@ public class Furniture : MonoBehaviour
       playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
       anim = GetComponent<Animator>();
+      addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+      
+      
       
 
       if (player == null)
@@ -43,6 +50,9 @@ public class Furniture : MonoBehaviour
          StartCoroutine(MoveToPlayer());
          rubbishBar.SetRubbish(5);
          GetComponent<BoxCollider2D>().enabled = false;
+         addScore.Furniture();
+         
+         
       }
    }
 
