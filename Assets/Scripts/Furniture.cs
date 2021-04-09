@@ -28,7 +28,7 @@ public class Furniture : MonoBehaviour
       playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
       anim = GetComponent<Animator>();
-      addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+      //addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
       
       
       
@@ -50,7 +50,7 @@ public class Furniture : MonoBehaviour
          StartCoroutine(MoveToPlayer());
          rubbishBar.SetRubbish(5);
          GetComponent<BoxCollider2D>().enabled = false;
-         addScore.Furniture();
+         //addScore.Furniture();
          
          
       }
