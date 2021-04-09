@@ -33,10 +33,20 @@ public class DestroyOnExit : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+
+    private Animator playerAnim;
+
+    void Awake()
+    {
+        playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
+    }
+    
     
     public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) 
     {
         Destroy(animator.gameObject, stateInfo.length);
+        playerAnim.SetBool("isSucking", false);
+
     }
 }
 

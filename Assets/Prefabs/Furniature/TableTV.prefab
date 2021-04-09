@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7373512933498787753}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Furniture
+  m_TagString: FurnitureCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,6 +69,7 @@ GameObject:
   - component: {fileID: 1530419279977958645}
   - component: {fileID: 1530419279977958634}
   - component: {fileID: 7830560929241178001}
+  - component: {fileID: 3323423591011956445}
   m_Layer: 0
   m_Name: TableTV
   m_TagString: Furniture
@@ -180,3 +181,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &3323423591011956445
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530419279977958632}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b00d7632c2373a744869b9cc59d4b662, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

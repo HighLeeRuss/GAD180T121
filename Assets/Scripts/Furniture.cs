@@ -13,6 +13,7 @@ public class Furniture : MonoBehaviour
    private bool pickUp = false;
    private Animator anim;
    private ScoreScript addScore;
+   private Animator playerAnim;
    
    
    
@@ -29,6 +30,7 @@ public class Furniture : MonoBehaviour
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
       anim = GetComponent<Animator>();
       addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+      playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
       
       
       
@@ -47,12 +49,13 @@ public class Furniture : MonoBehaviour
       {
          transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
          anim.SetBool("isSucked", true);
+         playerAnim.SetBool("isSucking", true);
          StartCoroutine(MoveToPlayer());
          rubbishBar.SetRubbish(5);
          GetComponent<BoxCollider2D>().enabled = false;
          addScore.Furniture();
-         
-         
+
+
       }
    }
 
