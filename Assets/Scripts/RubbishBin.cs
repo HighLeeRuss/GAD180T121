@@ -13,9 +13,10 @@ public class RubbishBin : MonoBehaviour
     private bool binFull = false;
     [HideInInspector] public int binCapacity;
     private bool contact = false;
-    
-    
-   
+    private ScoreScript addScore;
+
+
+
     void Awake()
     {
         binCapacity = 20;
@@ -23,8 +24,9 @@ public class RubbishBin : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
         rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
-        
-        
+        addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+
+
 
     }
 
@@ -60,6 +62,8 @@ public class RubbishBin : MonoBehaviour
                     binFull = true;
                     
                     print("the bin is full");
+
+                    addScore.RubbishBin();
                 }
                 
             }

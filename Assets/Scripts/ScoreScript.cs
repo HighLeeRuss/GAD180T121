@@ -17,9 +17,22 @@ public class ScoreScript : MonoBehaviour
 
     public void Furniture()
     {
-        score += 5;
+        score += 500;
         scoreText.text = score.ToString();
     }
+
+    public void Rubbish()
+    {
+        score += 50;
+        scoreText.text = score.ToString();
+    }
+
+    public void RubbishBin()
+    {
+        score += 1000;
+        scoreText.text = score.ToString();
+    }
+
 }
 
    
