@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 750969611547265255}
   - component: {fileID: 750969611547265252}
   - component: {fileID: 836473406131237371}
-  - component: {fileID: 1708349616738981895}
+  - component: {fileID: 4435910936553976729}
   m_Layer: 0
   m_Name: TableSmall
   m_TagString: Furniture
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &1708349616738981895
+--- !u!95 &4435910936553976729
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -134,7 +134,7 @@ Animator:
   m_GameObject: {fileID: 750969611547265253}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 971b74c80f04b0f4f8459e199d6debeb, type: 2}
+  m_Controller: {fileID: 9100000, guid: f821550f31575884eb22a9f4d59eb70e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

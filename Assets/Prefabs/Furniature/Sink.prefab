@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8887583172888447219}
   - component: {fileID: 6782960150251975835}
-  - component: {fileID: 7691093735313709684}
   - component: {fileID: 1925590330273640212}
   - component: {fileID: 783584594950896028}
+  - component: {fileID: 6212854384336468754}
   m_Layer: 0
   m_Name: Sink
   m_TagString: Furniture
@@ -86,18 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7691093735313709684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5045828700828548459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1925590330273640212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -143,6 +131,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6212854384336468754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045828700828548459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5476007894862183886
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5526460417603903454}
   - component: {fileID: 5526460417603903455}
   - component: {fileID: 5526460417603903452}
-  - component: {fileID: 5526460417603903448}
+  - component: {fileID: 3905848572312222101}
   m_Layer: 0
   m_Name: Chair_Front
   m_TagString: Furniture
@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 070cba172abbe3a43b04d199222013ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &5526460417603903448
+--- !u!95 &3905848572312222101
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

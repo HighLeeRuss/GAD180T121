@@ -20,10 +20,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83f60cb-26cf-402b-bcfa-f98686b4e412" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAD180T121/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Bed_Suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Bed_Suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Front.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Front.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Front_Suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Front_Suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Left.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Left.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Left_suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Left_suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Right.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Right.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Chair_Right_suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Chair_Right_suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/CoffeeTable 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTable 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/CoffeeTable.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/CoffeeTable.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/CoffeeTableSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/CoffeeTableSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/CouchSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/CouchSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/DinnerTableSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/DinnerTableSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/HarveyBed.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/HarveyBed.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Sink.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Sink.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Sink_Suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Sink_Suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Small_Table_Suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Small_Table_Suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/StoveSuck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/StoveSuck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TV 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TV 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TV.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TV.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TVSuck.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TVSuck.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TV_Table_Suck.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TV_Table_Suck.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableDinner 1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableDinner 1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableSmall.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TableSmall.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableSmall.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TableSmall.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/TableTV.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/TableTV.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Chair_Front.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Chair_Front.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Sink.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/Sink.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TV.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TV.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableDinner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableDinner.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableSmall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableSmall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableTV.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/TableTV.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Furniature/stove.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +98,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RubbishBin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Furniture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestroyOnExit.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +157,7 @@
       <workItem from="1616110385732" duration="29160000" />
       <workItem from="1616557189703" duration="22131000" />
       <workItem from="1617859671554" duration="4165000" />
-      <workItem from="1617930439978" duration="10186000" />
+      <workItem from="1617930439978" duration="12423000" />
     </task>
     <servers />
   </component>

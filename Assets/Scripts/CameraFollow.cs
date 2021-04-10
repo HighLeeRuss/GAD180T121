@@ -15,10 +15,10 @@ public class CameraFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        minX = -5.85f;
-        maxX = 6.18f;
-        minY = -4.39f;
-        maxY = 4.41f;
+        minX = -3.89f;
+        maxX = 8.03f;
+        minY = -4.2f;
+        maxY = 4.27f;
         playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
         transform.position = playerTransform.position;
     }
