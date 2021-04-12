@@ -1,24 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TimerCountdown : MonoBehaviour
-{
-    [SerializeField] private float startTime = 0f;
+{ 
+    private float startTime = 180f;
     [SerializeField] private Text timerText;
 
-    private float timer = 0f;
-    
-    
-    
+    [HideInInspector]public float timer = 0f;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Timer());
     }
 
-    private IEnumerator Timer()
+
+    public IEnumerator Timer()
     {
         timer = startTime;
 
@@ -32,7 +34,7 @@ public class TimerCountdown : MonoBehaviour
         while (timer > 0);
     }
 
-    private void FormatTimerText()
+    public void FormatTimerText()
     {
         int minutes = (int) (timer / 60) % 60;
         int seconds = (int) (timer % 60);

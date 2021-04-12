@@ -14,6 +14,7 @@ public class Furniture : MonoBehaviour
    private Animator anim;
    private ScoreScript addScore;
    private Animator playerAnim;
+   private AudioSource source;
    
    
    
@@ -31,6 +32,7 @@ public class Furniture : MonoBehaviour
       anim = GetComponent<Animator>();
       addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
       playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
+      source = GetComponent<AudioSource>();
       
       
       
@@ -52,6 +54,7 @@ public class Furniture : MonoBehaviour
          playerAnim.SetBool("isSucking", true);
          StartCoroutine(MoveToPlayer());
          rubbishBar.SetRubbish(5);
+         source.Play();
          GetComponent<BoxCollider2D>().enabled = false;
          addScore.Furniture();
 
