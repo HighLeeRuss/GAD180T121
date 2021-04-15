@@ -12,9 +12,9 @@ public class Player : MonoBehaviour
     [HideInInspector] public Animator anim;
     //[HideInInspector] public Animator wheelAnim;
 
-    [HideInInspector]
-    public Vector2 moveInput;
-    public Vector2 moveAmount;
+    
+    [HideInInspector] public Vector2 moveInput;
+    [HideInInspector] public Vector2 moveAmount;
 
     [HideInInspector] public RubbishBar rubbishBar;
     [HideInInspector] public bool isStunned;
