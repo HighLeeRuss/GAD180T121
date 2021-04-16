@@ -10,21 +10,24 @@ public class ScoreScript : MonoBehaviour
     [HideInInspector] public int highScore;
     [HideInInspector] public int score;
     public GameObject highScorePanel;
+    private bool highscore;
 
     // Start is called before the first frame update
     void Start()
     {
         highScore = 1000;
-        
+
+        highscore = true;
         score = 0;
         scoreText.text = score.ToString();
     }
 
     private void Update()
     {
-        if (score >= highScore)
+        if (score >= highScore && highscore == true)
         {
             highScorePanel.SetActive(true);
+            highscore = false;
             HighScore();
         }
     }
