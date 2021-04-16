@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    void EndGame()
+    public void EndGame()
     {
         Debug.Log("GAME OVER");
     }

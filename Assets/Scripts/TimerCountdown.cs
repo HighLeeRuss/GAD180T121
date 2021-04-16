@@ -5,11 +5,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TimerCountdown : MonoBehaviour
-{ 
-    private float startTime = 180f;
+{
+    private float startTime = 10f;
     [SerializeField] private Text timerText;
 
-    [HideInInspector]public float timer = 0f;
+    [HideInInspector] public float timer = 0f;
+    public GameObject losePanel;
 
 
 
@@ -17,6 +18,15 @@ public class TimerCountdown : MonoBehaviour
     void Start()
     {
         StartCoroutine(Timer());
+    }
+
+    private void Update()
+    {
+        if (timer < 1)
+        {
+            losePanel.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 
 
