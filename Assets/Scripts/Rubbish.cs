@@ -10,6 +10,7 @@ public class Rubbish : MonoBehaviour
     private Animator playerAnim;
     private Player player;
     private ScoreScript addScore;
+    private AudioSource source;
 
 
     private void Awake()
@@ -18,6 +19,7 @@ public class Rubbish : MonoBehaviour
         playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
         player = GameObject.FindWithTag("Player").GetComponent<Player>();
         addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+        source = GetComponent<AudioSource>();
     }
 
 
@@ -32,6 +34,7 @@ public class Rubbish : MonoBehaviour
                 rubbishBar.SetRubbish(1);
                 addScore.Rubbish();
                 playerAnim.SetBool("isSucking", true);
+                source.Play();
                 //playerAnim.SetBool("isSucking", false)
                 StartCoroutine(DeathTimer());
                 

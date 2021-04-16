@@ -10,8 +10,10 @@
           <e p="AudioManager.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="DestroyOnExit.cs" t="Include" />
+          <e p="Door.cs" t="Include" />
           <e p="FinishSucking.cs" t="Include" />
           <e p="Furniture.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="Hazzard.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />

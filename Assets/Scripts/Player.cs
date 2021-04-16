@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public float speed;
 
     private Rigidbody2D rb;
+    private AudioSource stunnedAudio;
     [HideInInspector] public Animator anim;
     //[HideInInspector] public Animator wheelAnim;
 
@@ -28,8 +29,9 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         isStunned = false;
         rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
+        stunnedAudio = GetComponent<AudioSource>();
         //wheelAnim = transform.GetChild(3).GetComponent<Animator>();
-        
+
 
 
     }
@@ -63,6 +65,7 @@ public class Player : MonoBehaviour
         if (!isStunned)
         {
             anim.SetBool("isStunned", false);
+            //stunnedAudio.Stop();
             speed = 4f;
             if (rubbishBar.slider.value > 5)
             {
@@ -109,12 +112,14 @@ public class Player : MonoBehaviour
     
     IEnumerator WaitForSec()
     {
-    
         yield return new WaitForSeconds(3.5f);
         isStunned = false;
         transform.GetChild(2).gameObject.SetActive(false);
-        
-        
+    }
+
+    void Audio()
+    {
+        stunnedAudio.Play();
     }
     
 

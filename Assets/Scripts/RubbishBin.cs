@@ -14,6 +14,9 @@ public class RubbishBin : MonoBehaviour
     [HideInInspector] public int binCapacity;
     private bool contact = false;
     private ScoreScript addScore;
+    private AudioSource source;
+    public AudioClip emptyBin;
+    public AudioClip binFullAudio;
 
 
 
@@ -25,6 +28,7 @@ public class RubbishBin : MonoBehaviour
         playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
         rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
         addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+        source = GetComponent<AudioSource>();
 
 
 
@@ -53,6 +57,8 @@ public class RubbishBin : MonoBehaviour
             {
                 //CheckContact();
 
+                source.clip = emptyBin;
+                source.Play();
                 rubbishBar.SetRubbish(-1);
                 binCapacity -= 1;
                 Debug.Log(binCapacity + "bin capacity");
@@ -74,7 +80,7 @@ public class RubbishBin : MonoBehaviour
             anim.SetBool("isFull", true);
             anim.SetBool("rMash", false);
             transform.GetChild(3).gameObject.SetActive(false);
-            
+
         }
     }
 
@@ -111,5 +117,11 @@ public class RubbishBin : MonoBehaviour
             transform.GetChild(3).gameObject.SetActive(true);
             anim.SetBool("rMash", true);
         }
+    }
+
+    void Audio()
+    {
+        source.clip = binFullAudio;
+        source.Play();
     }
 }
