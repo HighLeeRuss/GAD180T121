@@ -15,7 +15,7 @@ public class ScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        highScore = 1000;
+        highScore = 1500;
 
         highscore = true;
         score = 0;
@@ -35,7 +35,7 @@ public class ScoreScript : MonoBehaviour
 
     public void Furniture()
     {
-        score += 500;
+        score += 100;
         scoreText.text = score.ToString();
     }
 
@@ -47,7 +47,7 @@ public class ScoreScript : MonoBehaviour
 
     public void RubbishBin()
     {
-        score += 1000;
+        score += 100;
         scoreText.text = score.ToString();
     }
     
