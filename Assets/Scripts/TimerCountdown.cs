@@ -5,11 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TimerCountdown : MonoBehaviour
-<<<<<<< HEAD
-{
-=======
-{
->>>>>>> main
+{ 
     private float startTime = 180f;
     [SerializeField] private Text timerText;
 
