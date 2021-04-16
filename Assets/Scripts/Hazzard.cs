@@ -20,7 +20,6 @@ public class Hazzard : MonoBehaviour
   {
     if (col.gameObject.tag == "PlayerCollider")
     {
-      print("i stunned");
       playerScript.isStunned = true;
       playerScript.IsStunned();
 

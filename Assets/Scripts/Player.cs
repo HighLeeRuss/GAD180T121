@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -30,7 +28,6 @@ public class Player : MonoBehaviour
         isStunned = false;
         rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
         stunnedAudio = GetComponent<AudioSource>();
-        //wheelAnim = transform.GetChild(3).GetComponent<Animator>();
 
 
 
@@ -41,31 +38,28 @@ public class Player : MonoBehaviour
     {
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveAmount = moveInput.normalized * speed;
-        Debug.Log(moveInput);
         
-        Debug.Log("player is stunned " + isStunned);
-        
-        
-        
+
+
+
 
         if (moveAmount.magnitude != 0)
         {
             anim.SetBool("isMoving", true);
-            //wheelAnim.SetBool("wheelsMoving", true);
+            
             
             
         }
         else
         {
             anim.SetBool("isMoving", false);
-            //wheelAnim.SetBool("wheelsMoving", false);
+            
 
         }
         
         if (!isStunned)
         {
             anim.SetBool("isStunned", false);
-            //stunnedAudio.Stop();
             speed = 4f;
             if (rubbishBar.slider.value > 5)
             {

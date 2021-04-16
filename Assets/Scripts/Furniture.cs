@@ -67,12 +67,7 @@ public class Furniture : MonoBehaviour
    {
       if (col.gameObject.tag == "Player" && (!rubbishBar.rubbishFull && rubbishBar.slider.value <= 5))
       {
-         Debug.Log(col.name);
          pickUp = true;
-      }
-      else if (col.gameObject.tag == "Player" && (rubbishBar.rubbishFull || rubbishBar.slider.value > 5))
-      {
-         print("you full sucka");
       }
    }
 

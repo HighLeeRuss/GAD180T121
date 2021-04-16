@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -55,20 +54,15 @@ public class RubbishBin : MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.R) && binCapacity > 0 && rubbishBar.slider.value > 0)
             {
-                //CheckContact();
 
                 source.clip = emptyBin;
                 source.Play();
                 rubbishBar.SetRubbish(-1);
                 binCapacity -= 1;
-                Debug.Log(binCapacity + "bin capacity");
 
                 if (binCapacity == 0)
                 {
                     binFull = true;
-                    
-                    print("the bin is full");
-
                     addScore.RubbishBin();
                 }
                 
@@ -96,7 +90,6 @@ public class RubbishBin : MonoBehaviour
 
     public void OnTriggerExit2D(Collider2D other)
     {
-        Debug.Log("left");
         contact = false;
         transform.GetChild(3).gameObject.SetActive(false);
     }
@@ -104,7 +97,6 @@ public class RubbishBin : MonoBehaviour
 
     void CheckContact()
     {
-        Debug.Log("contact");
         contact = true;
         
         if (binFull)

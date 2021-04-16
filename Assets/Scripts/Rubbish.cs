@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -27,15 +26,12 @@ public class Rubbish : MonoBehaviour
     {
         if (c.gameObject.tag == "Player")
         {
-            print("i have found rubbish");
-            Debug.Log(rubbishBar.rubbishFull + "rubbish full");
             if (!rubbishBar.rubbishFull)
             {
                 rubbishBar.SetRubbish(1);
                 addScore.Rubbish();
                 playerAnim.SetBool("isSucking", true);
                 source.Play();
-                //playerAnim.SetBool("isSucking", false)
                 StartCoroutine(DeathTimer());
                 
             }
@@ -47,13 +43,7 @@ public class Rubbish : MonoBehaviour
         }
     }
 
-   //public void OnTriggerExit2D(Collider2D col)
-   //{
-   //    if (col.gameObject.tag == "Player")
-   //    {
-   //        playerAnim.SetBool("isSucking", false);
-   //    }
-   //}
+   
 
    IEnumerator DeathTimer()
    {
