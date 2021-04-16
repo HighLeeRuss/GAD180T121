@@ -61,7 +61,7 @@ public class ScoreScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         highScorePanel.SetActive(false);
-        Destroy(gameObject);
+        Destroy(highScorePanel);
     }
     
 
