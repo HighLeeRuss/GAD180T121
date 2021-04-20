@@ -12,12 +12,12 @@ public class Rubbish : MonoBehaviour
     private AudioSource source;
 
 
-    private void Awake()
+    private void Start()
     {
-        rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
-        playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
-        player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        addScore = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+        rubbishBar = GameObject.FindGameObjectWithTag("RubbishBar").GetComponent<RubbishBar>();
+        playerAnim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        addScore = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreScript>();
         source = GetComponent<AudioSource>();
     }
 
@@ -30,7 +30,11 @@ public class Rubbish : MonoBehaviour
             {
                 rubbishBar.SetRubbish(1);
                 addScore.Rubbish();
-                playerAnim.SetBool("isSucking", true);
+                if (player != null)
+                {
+                    playerAnim.SetBool("isSucking", true); 
+                }
+                
                 source.Play();
                 StartCoroutine(DeathTimer());
                 
@@ -43,13 +47,16 @@ public class Rubbish : MonoBehaviour
         }
     }
 
-   
 
-   IEnumerator DeathTimer()
-   {
-       yield return new WaitForSeconds(.2f);
-       playerAnim.SetBool("isSucking", false);
-       
-       Destroy(gameObject);
+
+    IEnumerator DeathTimer()
+    {
+        yield return new WaitForSeconds(.2f);
+        if (player != null)
+        {
+            playerAnim.SetBool("isSucking", false);
+        }
+
+        Destroy(gameObject);
    }
 }

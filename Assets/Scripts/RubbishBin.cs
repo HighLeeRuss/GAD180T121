@@ -19,7 +19,7 @@ public class RubbishBin : MonoBehaviour
 
 
 
-    void Awake()
+    void Start()
     {
         binCapacity = 20;
         anim = GetComponent<Animator>();

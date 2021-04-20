@@ -38,7 +38,7 @@ public class DestroyOnExit : StateMachineBehaviour
 
     void Awake()
     {
-        playerAnim = GameObject.FindWithTag("Player").GetComponent<Animator>();
+        playerAnim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
     
     

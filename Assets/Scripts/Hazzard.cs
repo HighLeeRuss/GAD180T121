@@ -7,12 +7,14 @@ public class Hazzard : MonoBehaviour
 {
   private Player playerScript;
   private RubbishBar rubbishBar;
+  private Player player;
 
 
-  private void Awake()
+  private void Start()
   {
-    playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
+    playerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
+    player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
   }
   
   
@@ -20,12 +22,11 @@ public class Hazzard : MonoBehaviour
   {
     if (col.gameObject.tag == "PlayerCollider")
     {
-      playerScript.isStunned = true;
-      playerScript.IsStunned();
-
-
-
-
+      if (player != null)
+      {
+        playerScript.isStunned = true;
+        playerScript.IsStunned();
+      }
     }
   }
 

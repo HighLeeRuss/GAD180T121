@@ -9,9 +9,9 @@ public class Door : MonoBehaviour
     public GameObject nexLevel;
     private AudioSource source;
 
-    private void Awake()
+    private void Start()
     {
-       score = GameObject.FindWithTag("Score").GetComponent<ScoreScript>();
+       score = GameObject.FindGameObjectWithTag("Score").GetComponent<ScoreScript>();
     }
 
    private void OnTriggerEnter2D(Collider2D col)

@@ -25,7 +25,7 @@ public class Furniture : MonoBehaviour
 
 
 
-   private void Awake()
+   private void Start()
    {
       playerScript = GameObject.FindWithTag("Player").GetComponent<Player>();
       rubbishBar = GameObject.FindWithTag("RubbishBar").GetComponent<RubbishBar>();
@@ -51,8 +51,12 @@ public class Furniture : MonoBehaviour
       {
          transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
          anim.SetBool("isSucked", true);
-         playerAnim.SetBool("isSucking", true);
-         StartCoroutine(MoveToPlayer());
+         if (player != null)
+         {
+            playerAnim.SetBool("isSucking", true);
+            StartCoroutine(MoveToPlayer());
+         }
+
          rubbishBar.SetRubbish(5);
          source.Play();
          GetComponent<BoxCollider2D>().enabled = false;
