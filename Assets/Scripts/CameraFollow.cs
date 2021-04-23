@@ -7,19 +7,19 @@ public class CameraFollow : MonoBehaviour
     [HideInInspector] public Transform playerTransform;
     public float speed;
 
-    private float minX;
-    private float maxX;
-    private float minY;
-    private float maxY;
+    public float minX;
+    public float maxX;
+    public float minY;
+    public float maxY;
     
     // Start is called before the first frame update
     void Start()
     {
-        minX = -3.89f;
-        maxX = 8.03f;
-        minY = -4.2f;
-        maxY = 4.27f;
-        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+       //minX = -3.89f;
+       //maxX = 8.03f;
+       //minY = -4.2f;
+       //maxY = 4.27f;
+        playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         transform.position = playerTransform.position;
     }
 
