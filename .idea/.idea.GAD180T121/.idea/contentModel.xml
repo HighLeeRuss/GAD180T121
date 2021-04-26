@@ -6,6 +6,32 @@
     <e p="C:\Users\rmcvi\UNITY\GAD180T121" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CodeMonkey" t="Include">
+          <e p="Assets.cs" t="Include" />
+          <e p="CMDebug.cs" t="Include" />
+          <e p="MonoBehaviours" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="CameraFollowSetup.cs" t="Include" />
+            <e p="ComponentActions.cs" t="Include" />
+            <e p="PositionRendererSorter.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="Button_Sprite.cs" t="Include" />
+            <e p="Button_UI.cs" t="Include" />
+            <e p="FunctionPeriodic.cs" t="Include" />
+            <e p="FunctionTimer.cs" t="Include" />
+            <e p="FunctionUpdater.cs" t="Include" />
+            <e p="UI_Bar.cs" t="Include" />
+            <e p="UI_BarMultiple.cs" t="Include" />
+            <e p="UI_Sprite.cs" t="Include" />
+            <e p="UI_TextComplex.cs" t="Include" />
+            <e p="UtilsClass.cs" t="Include" />
+            <e p="World_Bar.cs" t="Include" />
+            <e p="World_Mesh.cs" t="Include" />
+            <e p="World_Sprite.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
@@ -17,6 +43,7 @@
           <e p="Hazzard.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="Pointer.cs" t="Include" />
           <e p="Rubbish.cs" t="Include" />
           <e p="RubbishBar.cs" t="Include" />
           <e p="RubbishBin.cs" t="Include" />
